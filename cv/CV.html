@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carlos Alarcon - CV</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/0.5.0-beta4/html2canvas.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
+</head>
+<body>
+    <div class="container" id="cv">
+        <div class="header">
+            <h1>C/A</h1>
+            <div>
+                <h2>Carlos Alarcon</h2>
+                <h2>Ingeniería de Sistemas Computacionales</h2>
+            </div>
+        </div>
+        <div class="main">
+            <div class="left-column">
+                <div class="section contact">
+                    <h3><i class="fas fa-user"></i> Contacto</h3>
+                    <div class="contact-icons"><i class="fas fa-phone"></i><span>+51 964282257</span></div>
+                    <div class="contact-icons"><i class="fas fa-envelope"></i><span>tobe12381@gmail.com</span></div>
+                    <div class="contact-icons"><i class="fas fa-map-marker-alt"></i><span>Lima / Perú</span></div>
+                    <div class="contact-icons"><i class="fab fa-linkedin"></i><a href="https://www.linkedin.com/in/carlosalarconq">https://www.linkedin.com/in/carlosalarconq</a></div>
+                    <div class="contact-icons"><i class="fab fa-github"></i><a href="https://github.com/TobeCA12381">https://github.com/TobeCA12381</a></div>
+                </div>
+                <div class="section skills">
+                    <h3><i class="fas fa-lightbulb"></i> Conocimientos</h3>
+                    <div class="knowledge-section">
+                        <div class="knowledge-category">
+                            <h4>Lenguajes de Programación:</h4>
+                            <ul>
+                                <li>C/C++</li>
+                                <li>C#</li>
+                                <li>Java</li>
+                                <li>JavaScript</li>
+                                <li>PHP</li>
+                                <li>Python</li>
+                            </ul>
+                            <h4>Frameworks:</h4>
+                            <ul>
+                                <li>Laravel</li>
+                                <li>Spring Boot</li>
+                                <li>Node.js</li>
+                            </ul>
+                            <h4>Bases de Datos:</h4>
+                            <ul>
+                                <li>MySQL</li>
+                                <li>Oracle Database</li>
+                                <li>SQL Server</li>
+                                <li>MariaDB</li>
+                                <li>Firebase</li>
+                            </ul>
+                            <h4>Metodologías:</h4>
+                            <ul>
+                                <li>Scrum</li>
+                            </ul>
+                        </div>
+                        <div class="knowledge-category">
+                            <h4>Herramientas de Desarrollo:</h4>
+                            <ul>
+                                <li>Git, GitHub, GitLab</li>
+                                <li>Composer</li>
+                                <li>Visual Studio Code</li>
+                                <li>Android Studio</li>
+                                <li>XAMPP</li>
+                                <li>Apache Tomcat</li>
+                            </ul>
+                            <h4>Sistemas Operativos:</h4>
+                            <ul>
+                                <li>Windows Server 2016</li>
+                                <li>Kali Linux</li>
+                                <li>Ubuntu</li>
+                            </ul>
+                            <h4>Servicios en la Nube:</h4>
+                            <ul>
+                                <li>AWS Cloud Computing</li>
+                                <li>Google Cloud</li>
+                            </ul>
+                            <h4>Diseño y Modelado:</h4>
+                            <ul>
+                                <li>Figma</li>
+                                <li>Lucidchart</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="section languages">
+                    <h3><i class="fas fa-language"></i> Idiomas</h3>
+                    <div>
+                        <p>Español</p>
+                        <div class="language-bar">
+                            <span class="spanish"></span>
+                        </div>
+                    </div>
+                    <div>
+                        <p>Inglés</p>
+                        <div class="language-bar">
+                            <span class="english"></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="right-column">
+                <div class="section about">
+                    <h3><i class="fas fa-info-circle"></i> Acerca de mí</h3>
+                    <div class="about-content">
+                        <div class="about-text">
+                            <p>Estudiante de Ingeniería de Sistemas Computacionales en el décimo ciclo, con sólida formación en desarrollo de software, bases de datos y redes. Destaco en programación orientada a objetos, análisis de algoritmos y desarrollo de soluciones web, aplicando conocimientos prácticos adquiridos durante mis estudios.</p>
+                        </div>
+                        <div class="about-text">
+                            <p>Poseo una constante búsqueda de conocimiento y mi dedicación para alcanzar mis metas educativas. Estoy emocionado por seguir ampliando mis habilidades y conocimientos en este campo en evolución constante, y estoy ansioso por aplicar lo que aprendo en proyectos prácticos que generen un impacto significativo.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="section experience">
+                    <h3><i class="fas fa-briefcase"></i> Experiencia Laboral</h3>
+                    <div class="experience-item">
+                        <h4>Desarrollador Web Junior</h4>
+                        <h5>iFurniture Store SAC</h5>
+                        <h5>Junio 2023 - Septiembre 2023</h5>
+                        <p>Participación en el desarrollo y mejora de aplicaciones web utilizando Laravel, implementación de medidas de seguridad, integración de sistemas de pago y optimización del front-end. Conducción de proyectos colaborativos y formación de nuevos pasantes.</p>
+                        <h5>Responsabilidades:</h5>
+                        <ul>
+                            <li>Desarrollo con Laravel: Implementación y configuración de rutas, controladores, modelos y vistas. Gestión y actualización de versiones de Laravel.</li>
+                            <li>Seguridad: Implementación de certificados SSL y medidas de seguridad en servidores de hosting.</li>
+                            <li>Integración de Pagos: Integración de PayPal y Venmo, configuración y resolución de problemas con Culqi.</li>
+                            <li>Optimización Front-end: Desarrollo de interfaces responsivas y mejora en la gestión de imágenes.</li>
+                            <li>Proyectos Colaborativos: Creación de flujogramas y formularios para el panel de control.</li>
+                        </ul>
+                        <div class="two-column">
+                            <div class="section">
+                                <h5>Tecnologías utilizadas:</h5>
+                                <ul>
+                                    <li>Frontend: HTML, CSS, JavaScript</li>
+                                    <li>Backend: PHP, Laravel</li>
+                                    <li>Herramientas: Git, GitHub, Composer, XAMPP</li>
+                                    <li>Otros: PayPal API, Venmo API, SSL, GoDaddy</li>
+                                </ul>
+                                <h5>Herramientas:</h5>
+                                <ul>
+                                    <li>Diseño: Figma, Lucidchart</li>
+                                    <li>Código: Visual Studio Code</li>
+                                    <li>Sistema de control de versiones: GitLab</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="section education">
+                    <h3><i class="fas fa-user-graduate"></i> Educación</h3>
+                    <div class="education-item">
+                        <h4>Ingeniería de Sistemas Computacionales</h4>
+                        <h5>Universidad Privada del Norte, Lima</h5>
+                        <h5>Marzo 2019 - presente</h5>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <button id="downloadPdf" class="fixed-button">
+        Descargar CV en PDF
+    </button>
+    <script src="script.js"></script>
+</body>
+</html>

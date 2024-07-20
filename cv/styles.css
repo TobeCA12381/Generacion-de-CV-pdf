@@ -1,0 +1,200 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5;
+    color: #333;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    min-height: 100vh;
+}
+.container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    padding: 20px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.header {
+    background-color: #003366;
+    color: #fff;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    box-sizing: border-box;
+}
+.header h1 {
+    font-size: 48px;
+    margin: 0;
+    margin-right: 20px;
+}
+.header h2 {
+    font-size: 24px;
+    margin: 0;
+}
+.main {
+    display: flex;
+    width: 100%;
+}
+.left-column, .right-column {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.left-column {
+    background-color: #e0e0e0;
+    width: 35%;
+    padding: 20px;
+    box-sizing: border-box;
+}
+.right-column {
+    width: 65%;
+    padding: 20px;
+    box-sizing: border-box;
+}
+.section {
+    margin-bottom: 20px;
+    width: 100%;
+}
+.section h3 {
+    margin-top: 0;
+    font-size: 20px;
+    color: #003366;
+    border-bottom: 2px solid #003366;
+    padding-bottom: 5px;
+    margin-bottom: 15px;
+}
+h3 i {
+    margin-right: 10px; /* Ajusta este valor según tus necesidades */
+}
+.contact p, .skills ul, .about p, .experience ul, .education p, .courses ul {
+    margin: 2px 0;
+}
+.skills ul, .experience ul, .courses ul {
+    list-style: none;
+    padding-left: 0;
+    margin-left: 0;
+}
+.skills li, .experience li, .courses li {
+    margin: 5px 0;
+}
+.skills li::before, .experience li::before, .courses li::before {
+    color: #003366;
+    font-weight: bold;
+    display: inline-block;
+    width: 1em;
+}
+.contact a {
+    color: #003366;
+    text-decoration: none;
+    word-wrap: break-word;
+}
+.contact a:hover {
+    text-decoration: underline;
+}
+.about-content {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+.about-text {
+    width: 48%;
+}
+.contact-icons {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+.contact-icons i {
+    font-size: 20px;
+    margin-right: 10px;
+    color: #003366;
+}
+.experience-item {
+    margin-bottom: 20px;
+}
+.experience-item h4 {
+    margin: 0;
+    font-size: 18px;
+    color: #003366;
+}
+.experience-item h5 {
+    margin: 5px 0 10px 0;
+    font-size: 16px;
+    color: #555;
+    font-style: italic;
+}
+.experience-item p {
+    margin: 5px 0;
+}
+.experience-item ul {
+    list-style-type: disc;
+    padding-left: 20px;
+    margin: 0;
+}
+.skills-item ul {
+    list-style-type: disc;
+    padding-left: 20px;
+    margin: 0;
+}
+.education-item h4 {
+    font-size: 18px;
+    margin: 0;
+}
+.education-item h5 {
+    font-size: 16px;
+    color: #555;
+    margin: 5px 0 0 0;
+}
+.two-column {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+.two-column ul {
+    padding-left: 20px;
+    margin: 0;
+    width: 100%;
+}
+.language-bar {
+    width: 100%;
+    background-color: #ddd;
+    border-radius: 10px;
+    margin: 10px 0;
+    height: 10px;
+    overflow: hidden;
+}
+.language-bar span {
+    display: block;
+    height: 100%;
+    border-radius: 10px;
+}
+.spanish {
+    width: 100%;
+    background-color: #6a1b9a;
+}
+.english {
+    width: 33.3%;
+    background-color: #6a1b9a;
+}
+.knowledge-section {
+    display: flex;
+    flex-wrap: wrap;
+}
+.knowledge-category {
+    width: 50%;
+    box-sizing: border-box;
+    padding-right: 10px;
+}
+.knowledge-category ul {
+    list-style-type: none;
+    padding-left: 0;
+}
